@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Other page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/page2.html" aria-current="page">Other page</a>
+    </nav>
+    <main>
+      <!-- Customer Purchased Products will rendered here -->
+      <div class="groupLayOut m-0">
+        <!-- Purchased Products Item Headers  -->
+        <div class="row GroupProductHeader Headers d-flex justify-content-between m-0" >
+        <!-- First column for Type -->
+        <div class="col-6">Type</div>
+        <!-- Second column for Pris -->
+        <div class="col-3">Pris</div>
+        <!-- Third column for Antal -->
+        <div class="col-3">Antal</div>
+        </div>
+        <!-- End of Purchased Products Item Headers  -->
+        <!-- Purchased Products Item  -->
+        <div class="row mt-3">
+        <div class="col">
+          <table class="table">
+            <tbody>
+              <tr class="ProductItem">
+                <td class="col-6">Miralix DeskTop 1.7</td>
+                <td class="col-3">700 kr</td>
+                <td class="col-3">1200</td>
+              </tr>
+              <tr class="ProductItem">
+                <td class="col-6">Miralix DeskTop 1.7</td>
+                <td class="col-3">700 kr</td>
+                <td class="col-3">1200</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        </div>
+       <!-- End of Purached Products Item  -->
+      </div>
+      <div class="m-4 text-end">
+        <div class="btn rounded-pill px-5" style="background: rgba(39, 61, 32, 1);color: rgba(255, 255, 255, 1);">Opret gruppe</div>
+      </div>
+      <!-- Customer Purchased Products -->
+    </main>
+  </body>
+</html>
